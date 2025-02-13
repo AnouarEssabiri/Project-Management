@@ -1,74 +1,121 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Scrum Project Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, scalable React application for project management based on Scrum methodology. Built with React, Tailwind CSS, and modern web technologies.
+
+## Features
+
+- User Authentication with Role-Based Access
+- Interactive Dashboard
+- Scrum Board & Sprint Management
+- Kanban Board with Drag & Drop
+- Real-time Updates
+- Dark Mode Support
+- Responsive Design
+- Modern UI with Animations
+
+## Tech Stack
+
+- React (Latest Version)
+- React Router for routing
+- Tailwind CSS for styling
+- Framer Motion for animations
+- Shadcn/UI for UI components
+- Redux Toolkit for state management
+- React Beautiful DnD for drag and drop
+- Firebase for authentication and database
+
+## Project Structure
+
+```
+src/
+├── components/         # Reusable UI components
+├── pages/             # Page components
+├── layouts/           # Layout components
+├── features/          # Feature-specific components
+├── hooks/             # Custom React hooks
+├── services/          # API and service functions
+├── store/             # Redux store and slices
+├── utils/             # Utility functions
+├── constants/         # Constants and configurations
+└── assets/           # Static assets
+```
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables:
+   Create a `.env` file with:
+   ```
+   REACT_APP_FIREBASE_API_KEY=your_api_key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start`: Run development server
+- `npm build`: Build for production
+- `npm test`: Run tests
+- `npm run lint`: Run linter
+- `npm run format`: Format code
 
-### `npm start`
+## Authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application uses Firebase Authentication with the following roles:
+- Admin: Full access to all features
+- Team Lead: Project and team management
+- Developer: Task management and updates
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Design System
 
-### `npm test`
+- Uses Tailwind CSS for styling
+- Consistent color scheme and typography
+- Responsive design for all screen sizes
+- Dark mode support
+- Smooth animations with Framer Motion
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Core Features
 
-### `npm run build`
+### Dashboard
+- Project overview
+- Sprint statistics
+- Team member management
+- Activity timeline
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Scrum Board
+- Sprint planning
+- Backlog management
+- Sprint review
+- Daily standup tracking
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Kanban Board
+- Drag and drop tasks
+- Multiple columns
+- Task filtering
+- Priority management
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### User Management
+- Role-based access control
+- Team management
+- User profiles
+- Activity tracking
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Project-Management
->>>>>>> 967e186ba2e2d4be2b1784a704c7e3e0f7b918d5
+This project is licensed under the MIT License.
